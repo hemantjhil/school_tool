@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ADD STUDENT DETAIL</title>
+	<!-- <script type="text/javascript" src="add_Student.js"></script> -->
+</head>
+	<body id="tb1">
+		<form action="ADD_STUDENT_DETAIL.php" method="get" id="final0">
+			<fieldset>
+			<legend>ADD STUDENT DETAIL</legend>
+<center>
+	<p>ADMISSION NUMBER</p>
+<input type = "text" name="admno" value = "" size="40"/>
+<table  cellpadding="0" cellspacing="0" align="center" width="100%" border="0">
+	<tbody>
+		<tr>
+			<th><p>NAME</p></th>
+			<th><p>CLASS</p></th>
+			<th><p>RTE (YES/NO) </p></th>
+			<!--<th><p>EMAIL ID (firstName.admno@mpsvns.in)</p></th>-->
+			
+		</tr>
+		<tr>
+			<th><input type = "text" name="name" value = "" size="40"/></th>
+			<th><input type = "text" name="class" value = "" size="20" ></th>
+			<th><input type = "text" name="rteValue" value = "" size="20"/></th>
+			<!--<th><input type = "text" name="email_id" value = "" size="40"  ></th>-->
+		</tr>
+		<tr>
+		    <td>
+		        &nbsp;
+		        <!--you just need a space in a row-->
+		    </td>
+		</tr>
+		<tr>
+			<th><p>AADHAAR</p></th>
+			<th><p>FATHER NAME</p></th>
+			<th><p>MOTHER NAME </p></th>
+			<th><p>ADDRESS </p></th>
+			
+		</tr>
+		<tr>
+			<th><input type = "number" name="aadhaar" value = "" size="16"/></th>
+			<th><input type = "text" name="father_name" value = "" size="30"/></th>
+			<th><input type = "text" name="mother_name" value = "" size="30"/></th>
+			<th><input type = "text" name="address" value = "" size="40"  /></th>
+		</tr>
+		<tr>
+		    <td>
+		        &nbsp;
+		        <!--you just need a space in a row-->
+		    </td>
+		</tr>
+		<tr>
+			<th><p>MOBILE NUMBER</p></th>
+			<th><p>ENROLLED IN YEAR</p></th>
+			<th><p>ENROLLED OUT YEAR </p></th>
+			<th><p>PREVIOUS ATTENDED SCHOOL </p></th>
+			
+		</tr>
+		<tr>
+			<th><input type = "number" name="mobile" value = "" size="10"/></th>
+			<th><input type = "number" name="enrolled_in_year" value = "" size="10"/></th>
+			<th><input type = "number" name="enrolled_out_year" value = "" size="10"/></th>
+			<th><input type = "text" name="previous_attended_school" value = "" size="60"  /></th>
+		</tr>
+		<tr>
+		    <td>
+		        &nbsp;
+		        <!--you just need a space in a row-->
+		    </td>
+		</tr>
+		<tr>
+			<th><p>NOTES</p></th>
+			<th><p>DUES (IN RUPEE)</p></th>
+			<th><p>TRANSPORT ROUTE</p></th>
+			<th><p>CURRENT STATUS (ACTIVE/ IN-ACTIVE) </p></th>
+			
+		</tr>
+		<tr>
+			<th><input type = "text" name="notes" value = "" size="40"/></th>
+			<th><input type = "number" name="dues" value = "0" size="10" /></th>
+			<th>
+				<select name="route_id" id="route_id">
+				<option value=null selected>select..</option>
+				<option value=2>JANSA - 600</option>
+				<option value=3>BADAURA - 600</option>
+				<option value=4>MOHAMMADPUR - 600</option>
+				<option value=5>GORAI - 700</option>
+				<option value=6>KUNDARIA - 800</option>
+				<option value=7>BENIPUR - 800</option>
+				<option value=8>BHIKHAMPUR - 800</option>
+				<option value=9>SAMBHUPUR - 800</option>
+				<option value=10>HATHI - 800</option>
+				<option value=11>DASRATHPUR - 800</option>
+				<option value=12>KARDHANA - 800</option>
+				<option value=13>BASANTPUR - 800</option>
+				<option value=14>TARSAW - 800</option>
+				<option value=15>SAPREHTA - 1000</option>
+				<option value=16>DILAWALPUR - 1000</option>
+				</select>
+			</th>
+			<th><input type = "text" name="activeValue" value = "" size="20"  /></th>
+		</tr>
+	</tbody>
+	</table>
+	<br/>
+	<br/>
+
+	UPDATE DETAILS:
+	<input type = "submit" name = "login" id = "login" value = "UPDATE" /></center>
+</fieldset>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
